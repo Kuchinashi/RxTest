@@ -1,0 +1,473 @@
+﻿03-08 23:30:52.044 18215-18215/com.example.rxtest I/MonitoringInstrumentation: Instrumentation Started!
+03-08 23:30:52.045 18215-18215/com.example.rxtest I/MonitoringInstrumentation: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.rxtest.test-1/base.apk", zip file "/data/app/com.example.rxtest-2/base.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.rxtest.test-1/base.apk", zip file "/data/app/com.example.rxtest-2/base.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]]'
+03-08 23:30:52.058 18215-18215/com.example.rxtest I/MonitoringInstrumentation: No JSBridge.
+                                                                               java.lang.ClassNotFoundException: android.support.test.espresso.web.bridge.JavaScriptBridge
+                                                                                   at java.lang.Class.classForName(Native Method)
+                                                                                   at java.lang.Class.forName(Class.java:308)
+                                                                                   at java.lang.Class.forName(Class.java:272)
+                                                                                   at android.support.test.runner.MonitoringInstrumentation.tryLoadingJsBridge(MonitoringInstrumentation.java:621)
+                                                                                   at android.support.test.runner.MonitoringInstrumentation.access$100(MonitoringInstrumentation.java:90)
+                                                                                   at android.support.test.runner.MonitoringInstrumentation$4.run(MonitoringInstrumentation.java:232)
+                                                                                   at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:1855)
+                                                                                   at android.os.Handler.handleCallback(Handler.java:739)
+                                                                                   at android.os.Handler.dispatchMessage(Handler.java:95)
+                                                                                   at android.os.Looper.loop(Looper.java:211)
+                                                                                   at android.app.ActivityThread.main(ActivityThread.java:5335)
+                                                                                   at java.lang.reflect.Method.invoke(Native Method)
+                                                                                   at java.lang.reflect.Method.invoke(Method.java:372)
+                                                                                   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016)
+                                                                                   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+                                                                                Caused by: java.lang.ClassNotFoundException: Didn't find class "android.support.test.espresso.web.bridge.JavaScriptBridge" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.example.rxtest.test-1/base.apk", zip file "/data/app/com.example.rxtest-2/base.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+                                                                                   at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+                                                                                   at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+                                                                                   at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+                                                                                   at java.lang.Class.classForName(Native Method) 
+                                                                                   at java.lang.Class.forName(Class.java:308) 
+                                                                                   at java.lang.Class.forName(Class.java:272) 
+                                                                                   at android.support.test.runner.MonitoringInstrumentation.tryLoadingJsBridge(MonitoringInstrumentation.java:621) 
+                                                                                   at android.support.test.runner.MonitoringInstrumentation.access$100(MonitoringInstrumentation.java:90) 
+                                                                                   at android.support.test.runner.MonitoringInstrumentation$4.run(MonitoringInstrumentation.java:232) 
+                                                                                   at android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:1855) 
+                                                                                   at android.os.Handler.handleCallback(Handler.java:739) 
+                                                                                   at android.os.Handler.dispatchMessage(Handler.java:95) 
+                                                                                   at android.os.Looper.loop(Looper.java:211) 
+                                                                                   at android.app.ActivityThread.main(ActivityThread.java:5335) 
+                                                                                   at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                   at java.lang.reflect.Method.invoke(Method.java:372) 
+                                                                                   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016) 
+                                                                                   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811) 
+                                                                               	Suppressed: java.lang.ClassNotFoundException: android.support.test.espresso.web.bridge.JavaScriptBridge
+                                                                                   at java.lang.Class.classForName(Native Method)
+                                                                                   at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+                                                                                   at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+                                                                                   at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+                                                                                   		... 16 more
+                                                                                Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack available
+03-08 23:30:52.135 18215-18246/com.example.rxtest D/TestExecutor: Adding listener android.support.test.internal.runner.listener.LogRunListener
+03-08 23:30:52.135 18215-18246/com.example.rxtest D/TestExecutor: Adding listener android.support.test.internal.runner.listener.InstrumentationResultPrinter
+03-08 23:30:52.135 18215-18246/com.example.rxtest D/TestExecutor: Adding listener android.support.test.internal.runner.listener.ActivityFinisherRunListener
+03-08 23:30:52.138 18215-18246/com.example.rxtest I/TestRunner: run started: 1 tests
+03-08 23:30:52.151 18215-18246/com.example.rxtest I/TestRunner: started: connection(com.example.rxtest.ApplicationTest)
+03-08 23:30:52.156 18215-18215/com.example.rxtest I/MonitoringInstrumentation: Activities that are still in CREATED to STOPPED: 0
+03-08 23:30:52.241 18215-18246/com.example.rxtest I/Retry: call()
+03-08 23:30:52.264 18215-18246/com.example.rxtest D/QCNEA   : |WRAPPER|: android_getaddrinfofornet: dns_mode = NULL
+03-08 23:30:52.265 18215-18246/com.example.rxtest D/QCNEA   : |WRAPPER|: android_getaddrinfofornet: bionic_android_getaddrinfofornet returns retcode=8 errno=0
+03-08 23:30:52.265 18215-18246/com.example.rxtest D/QCNEA   : |WRAPPER|: android_getaddrinfofornet: bionic_android_getaddrinfofornet takes 0ms for www.google.com, 
+03-08 23:30:52.265 18215-18246/com.example.rxtest D/QCNEA   : |WRAPPER|: android_getaddrinfofornet: dns_mode = NULL
+03-08 23:30:52.272 18215-18250/com.example.rxtest I/Retry: flatMap()
+03-08 23:30:52.272 18215-18250/com.example.rxtest I/Retry: waitingBroadcast()
+03-08 23:30:55.282 18215-18215/com.example.rxtest I/Retry: onReceive()
+03-08 23:30:55.284 18215-18215/com.example.rxtest D/QCNEA   : |WRAPPER|: android_getaddrinfofornet: dns_mode = NULL
+03-08 23:30:55.285 18215-18215/com.example.rxtest D/QCNEA   : |WRAPPER|: android_getaddrinfofornet: bionic_android_getaddrinfofornet returns retcode=8 errno=0
+03-08 23:30:55.285 18215-18215/com.example.rxtest D/QCNEA   : |WRAPPER|: android_getaddrinfofornet: bionic_android_getaddrinfofornet takes 0ms for www.google.com, 
+03-08 23:30:55.291 18215-18250/com.example.rxtest I/Retry: flatMap()
+03-08 23:30:55.292 18215-18215/com.example.rxtest W/ApplicationTest: onError()
+03-08 23:30:55.310 18215-18215/com.example.rxtest E/MonitoringInstrumentation: Exception encountered by: com.example.rxtest.Retry$1@304de118. Dumping thread state to outputs and pining for the fjords.
+                                                                               rx.exceptions.OnErrorFailedException: Error occurred when trying to propagate error to Observer.onError
+                                                                                   at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:192)
+                                                                                   at rx.observers.SafeSubscriber.onError(SafeSubscriber.java:120)
+                                                                                   at rx.internal.operators.OnSubscribeRedo$4$1.onError(OnSubscribeRedo.java:331)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.reportError(OperatorMerge.java:243)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.checkTerminate(OperatorMerge.java:779)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.emitLoop(OperatorMerge.java:540)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.emitScalar(OperatorMerge.java:406)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.tryEmit(OperatorMerge.java:330)
+                                                                                   at rx.internal.operators.OperatorMerge$InnerSubscriber.onNext(OperatorMerge.java:807)
+                                                                                   at com.example.rxtest.Retry$1.onReceive(Retry.java:45)
+                                                                                   at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:867)
+                                                                                   at android.os.Handler.handleCallback(Handler.java:739)
+                                                                                   at android.os.Handler.dispatchMessage(Handler.java:95)
+                                                                                   at android.os.Looper.loop(Looper.java:211)
+                                                                                   at android.app.ActivityThread.main(ActivityThread.java:5335)
+                                                                                   at java.lang.reflect.Method.invoke(Native Method)
+                                                                                   at java.lang.reflect.Method.invoke(Method.java:372)
+                                                                                   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016)
+                                                                                   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+                                                                                Caused by: rx.exceptions.CompositeException: 2 exceptions occurred. 
+                                                                                   at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:192) 
+                                                                                   at rx.observers.SafeSubscriber.onError(SafeSubscriber.java:120) 
+                                                                                   at rx.internal.operators.OnSubscribeRedo$4$1.onError(OnSubscribeRedo.java:331) 
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.reportError(OperatorMerge.java:243) 
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.checkTerminate(OperatorMerge.java:779) 
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.emitLoop(OperatorMerge.java:540) 
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.emitScalar(OperatorMerge.java:406) 
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.tryEmit(OperatorMerge.java:330) 
+                                                                                   at rx.internal.operators.OperatorMerge$InnerSubscriber.onNext(OperatorMerge.java:807) 
+                                                                                   at com.example.rxtest.Retry$1.onReceive(Retry.java:45) 
+                                                                                   at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:867) 
+                                                                                   at android.os.Handler.handleCallback(Handler.java:739) 
+                                                                                   at android.os.Handler.dispatchMessage(Handler.java:95) 
+                                                                                   at android.os.Looper.loop(Looper.java:211) 
+                                                                                   at android.app.ActivityThread.main(ActivityThread.java:5335) 
+                                                                                   at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                   at java.lang.reflect.Method.invoke(Method.java:372) 
+                                                                                   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016) 
+                                                                                   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811) 
+                                                                                Caused by: rx.exceptions.CompositeException$CompositeExceptionCausalChain: Chain of Causes for CompositeException In Order Received =>
+                                                                                   at org.junit.runner.notification.Failure.getTrace(Failure.java:75)
+                                                                                   at android.support.test.internal.runner.listener.InstrumentationResultPrinter.reportProcessCrash(InstrumentationResultPrinter.java:204)
+                                                                                   at android.support.test.runner.AndroidJUnitRunner.onException(AndroidJUnitRunner.java:309)
+                                                                                   at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:874)
+                                                                                   at android.os.Handler.handleCallback(Handler.java:739) 
+                                                                                   at android.os.Handler.dispatchMessage(Handler.java:95) 
+                                                                                   at android.os.Looper.loop(Looper.java:211) 
+                                                                                   at android.app.ActivityThread.main(ActivityThread.java:5335) 
+                                                                                   at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                   at java.lang.reflect.Method.invoke(Method.java:372) 
+                                                                                   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016) 
+                                                                                   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811) 
+                                                                                Caused by: java.lang.NullPointerException
+                                                                                   at java.util.concurrent.ConcurrentLinkedQueue.checkNotNull(ConcurrentLinkedQueue.java:773)
+                                                                                   at java.util.concurrent.ConcurrentLinkedQueue.offer(ConcurrentLinkedQueue.java:295)
+                                                                                   at rx.internal.operators.OperatorMerge$InnerSubscriber.onError(OperatorMerge.java:812)
+                                                                                   at rx.Observable$ThrowObservable$1.call(Observable.java:10200)
+                                                                                   at rx.Observable$ThrowObservable$1.call(Observable.java:10190)
+                                                                                   at rx.Observable.unsafeSubscribe(Observable.java:8314)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.onNext(OperatorMerge.java:235)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.onNext(OperatorMerge.java:145)
+                                                                                   at rx.internal.operators.OperatorMap$1.onNext(OperatorMap.java:54)
+                                                                                   at rx.internal.operators.OperatorMap$1.onNext(OperatorMap.java:54)
+                                                                                   at rx.internal.operators.OnSubscribeRedo$3$1.onNext(OnSubscribeRedo.java:307)
+                                                                                   at rx.internal.operators.OnSubscribeRedo$3$1.onNext(OnSubscribeRedo.java:289)
+                                                                                   at rx.internal.operators.NotificationLite.accept(NotificationLite.java:150)
+                                                                                   at rx.subjects.SubjectSubscriptionManager$SubjectObserver.emitNext(SubjectSubscriptionManager.java:253)
+                                                                                   at rx.subjects.BehaviorSubject.onNext(BehaviorSubject.java:160)
+                                                                                   at rx.internal.operators.OnSubscribeRedo$2$1.onError(OnSubscribeRedo.java:242)
+                                                                                   at rx.internal.operators.OperatorSubscribeOn$1$1.onError(OperatorSubscribeOn.java:59)
+                                                                                   at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.checkTerminated(OperatorObserveOn.java:254)
+                                                                                   at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.call(OperatorObserveOn.java:186)
+                                                                                   at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+                                                                                   at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+                                                                                   at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+                                                                               	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$
+03-08 23:30:55.313 18215-18215/com.example.rxtest E/THREAD_STATE:   Thread[ReferenceQueueDaemon,5,system]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:133)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[RxCachedThreadScheduler-1,5,main]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Thread.parkFor(Thread.java:1220)
+                                                                      sun.misc.Unsafe.park(Unsafe.java:299)
+                                                                      java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+                                                                      java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1048)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:776)
+                                                                      java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+                                                                      java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+                                                                      java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[RxComputationThreadPool-2,5,main]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Thread.parkFor(Thread.java:1220)
+                                                                      sun.misc.Unsafe.park(Unsafe.java:299)
+                                                                      java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:197)
+                                                                      java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2055)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1060)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:776)
+                                                                      java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+                                                                      java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+                                                                      java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[JDWP,5,system]
+                                                                  
+                                                                    Thread[RxComputationThreadPool-1,5,main]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Thread.parkFor(Thread.java:1220)
+                                                                      sun.misc.Unsafe.park(Unsafe.java:299)
+                                                                      java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:197)
+                                                                      java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2055)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1060)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:776)
+                                                                      java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+                                                                      java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+                                                                      java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[HeapTrimmerDaemon,5,system]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:310)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[Signal Catcher,5,system]
+                                                                  
+                                                                    Thread[FinalizerDaemon,5,system]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Object.wait(Object.java:422)
+                                                                      java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+                                                                      java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+                                                                      java.lang.Daemons$FinalizerDaemon.run(Daemons.java:173)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[Binder_1,5,main]
+                                                                  
+                                                                    Thread[FinalizerWatchdogDaemon,5,system]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:239)
+                                                                      java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:211)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[Binder_2,5,main]
+                                                                  
+                                                                    Thread[Instr: android.support.test.runner.AndroidJUnitRunner,5,main]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Thread.parkFor(Thread.java:1220)
+                                                                      sun.misc.Unsafe.park(Unsafe.java:299)
+                                                                      java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+                                                                      java.util.con
+03-08 23:30:55.313 18215-18215/com.example.rxtest E/MonitoringInstrumentation: Dying now...
+03-08 23:30:55.313 18215-18215/com.example.rxtest D/AndroidRuntime: Shutting down VM
+03-08 23:30:55.327 18215-18215/com.example.rxtest E/MonitoringInstrumentation: Exception encountered by: Thread[main,5,main]. Dumping thread state to outputs and pining for the fjords.
+                                                                               java.lang.RuntimeException: Error receiving broadcast Intent { act=com.example.rxtest.ACTION flg=0x10 } in com.example.rxtest.Retry$1@304de118
+                                                                                   at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:877)
+                                                                                   at android.os.Handler.handleCallback(Handler.java:739)
+                                                                                   at android.os.Handler.dispatchMessage(Handler.java:95)
+                                                                                   at android.os.Looper.loop(Looper.java:211)
+                                                                                   at android.app.ActivityThread.main(ActivityThread.java:5335)
+                                                                                   at java.lang.reflect.Method.invoke(Native Method)
+                                                                                   at java.lang.reflect.Method.invoke(Method.java:372)
+                                                                                   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016)
+                                                                                   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+                                                                                Caused by: rx.exceptions.OnErrorFailedException: Error occurred when trying to propagate error to Observer.onError
+                                                                                   at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:192)
+                                                                                   at rx.observers.SafeSubscriber.onError(SafeSubscriber.java:120)
+                                                                                   at rx.internal.operators.OnSubscribeRedo$4$1.onError(OnSubscribeRedo.java:331)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.reportError(OperatorMerge.java:243)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.checkTerminate(OperatorMerge.java:779)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.emitLoop(OperatorMerge.java:540)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.emitScalar(OperatorMerge.java:406)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.tryEmit(OperatorMerge.java:330)
+                                                                                   at rx.internal.operators.OperatorMerge$InnerSubscriber.onNext(OperatorMerge.java:807)
+                                                                                   at com.example.rxtest.Retry$1.onReceive(Retry.java:45)
+                                                                                   at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:867)
+                                                                                   at android.os.Handler.handleCallback(Handler.java:739) 
+                                                                                   at android.os.Handler.dispatchMessage(Handler.java:95) 
+                                                                                   at android.os.Looper.loop(Looper.java:211) 
+                                                                                   at android.app.ActivityThread.main(ActivityThread.java:5335) 
+                                                                                   at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                   at java.lang.reflect.Method.invoke(Method.java:372) 
+                                                                                   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016) 
+                                                                                   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811) 
+                                                                                Caused by: rx.exceptions.CompositeException: 2 exceptions occurred. 
+                                                                                   at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:192) 
+                                                                                   at rx.observers.SafeSubscriber.onError(SafeSubscriber.java:120) 
+                                                                                   at rx.internal.operators.OnSubscribeRedo$4$1.onError(OnSubscribeRedo.java:331) 
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.reportError(OperatorMerge.java:243) 
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.checkTerminate(OperatorMerge.java:779) 
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.emitLoop(OperatorMerge.java:540) 
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.emitScalar(OperatorMerge.java:406) 
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.tryEmit(OperatorMerge.java:330) 
+                                                                                   at rx.internal.operators.OperatorMerge$InnerSubscriber.onNext(OperatorMerge.java:807) 
+                                                                                   at com.example.rxtest.Retry$1.onReceive(Retry.java:45) 
+                                                                                   at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:867) 
+                                                                                   at android.os.Handler.handleCallback(Handler.java:739) 
+                                                                                   at android.os.Handler.dispatchMessage(Handler.java:95) 
+                                                                                   at android.os.Looper.loop(Looper.java:211) 
+                                                                                   at android.app.ActivityThread.main(ActivityThread.java:5335) 
+                                                                                   at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                   at java.lang.reflect.Method.invoke(Method.java:372) 
+                                                                                   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016) 
+                                                                                   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811) 
+                                                                                Caused by: rx.exceptions.CompositeException$CompositeExceptionCausalChain: Chain of Causes for CompositeException In Order Received =>
+                                                                                   at org.junit.runner.notification.Failure.getTrace(Failure.java:75)
+                                                                                   at android.support.test.internal.runner.listener.InstrumentationResultPrinter.reportProcessCrash(InstrumentationResultPrinter.java:204)
+                                                                                   at android.support.test.runner.AndroidJUnitRunner.onException(AndroidJUnitRunner.java:309)
+                                                                                   at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:874)
+                                                                                   at android.os.Handler.handleCallback(Handler.java:739) 
+                                                                                   at android.os.Handler.dispatchMessage(Handler.java:95) 
+                                                                                   at android.os.Looper.loop(Looper.java:211) 
+                                                                                   at android.app.ActivityThread.main(ActivityThread.java:5335) 
+                                                                                   at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                   at java.lang.reflect.Method.invoke(Method.java:372) 
+                                                                                   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016) 
+                                                                                   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811) 
+                                                                                Caused by: java.lang.NullPointerException
+                                                                                   at java.util.concurrent.ConcurrentLinkedQueue.checkNotNull(ConcurrentLinkedQueue.java:773)
+                                                                                   at java.util.concurrent.ConcurrentLinkedQueue.offer(ConcurrentLinkedQueue.java:295)
+                                                                                   at rx.internal.operators.OperatorMerge$InnerSubscriber.onError(OperatorMerge.java:812)
+                                                                                   at rx.Observable$ThrowObservable$1.call(Observable.java:10200)
+                                                                                   at rx.Observable$ThrowObservable$1.call(Observable.java:10190)
+                                                                                   at rx.Observable.unsafeSubscribe(Observable.java:8314)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.onNext(OperatorMerge.java:235)
+                                                                                   at rx.internal.operators.OperatorMerge$MergeSubscriber.onNext(OperatorMerge.java:145)
+                                                                                   at rx.internal.operators.OperatorMap$1.onNext(OperatorMap.java:54)
+                                                                                   at rx.internal.operators.OperatorMap$1.onNext(OperatorMap.java:54)
+                                                                                   at rx.internal.operators.OnSubscribeRedo$3$1.onNext(OnSubscribeRedo.java:307)
+                                                                                   at rx.internal.operators.OnSubscribeRedo$3$1.onNext(OnSubscribeRedo.java:289)
+                                                                                   at rx.internal.operators.NotificationLite.accept(NotificationLite.java:150)
+                                                                                   at rx.subjects.SubjectSubscriptionManager$SubjectObserver.emitNext(SubjectSubscriptionManager.java:253)
+                                                                                   at rx.subjects.BehaviorSubject.onNext(BehaviorSubject.java:160)
+                                                                                   at rx.internal.operators.OnSubscribeRedo$2$1.onError(OnSubscribeRedo.java:242)
+                                                                                   at rx.internal.operators.OperatorSubscribeOn$1$1.onError(OperatorSubscribeOn.java:59)
+                                                                                   at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.checkTerminated(OperatorObserveOn.java:254)
+                                                                                   at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.call(OperatorObserveOn.java:186)
+                                                                               	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.ja
+03-08 23:30:55.329 18215-18215/com.example.rxtest E/THREAD_STATE:   Thread[ReferenceQueueDaemon,5,system]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:133)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[RxCachedThreadScheduler-1,5,main]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Thread.parkFor(Thread.java:1220)
+                                                                      sun.misc.Unsafe.park(Unsafe.java:299)
+                                                                      java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+                                                                      java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1048)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:776)
+                                                                      java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+                                                                      java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+                                                                      java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[RxComputationThreadPool-2,5,main]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Thread.parkFor(Thread.java:1220)
+                                                                      sun.misc.Unsafe.park(Unsafe.java:299)
+                                                                      java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:197)
+                                                                      java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2055)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1060)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:776)
+                                                                      java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+                                                                      java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+                                                                      java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[JDWP,5,system]
+                                                                  
+                                                                    Thread[RxComputationThreadPool-1,5,main]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Thread.parkFor(Thread.java:1220)
+                                                                      sun.misc.Unsafe.park(Unsafe.java:299)
+                                                                      java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:197)
+                                                                      java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2055)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1060)
+                                                                      java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:776)
+                                                                      java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+                                                                      java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+                                                                      java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[HeapTrimmerDaemon,5,system]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:310)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[Signal Catcher,5,system]
+                                                                  
+                                                                    Thread[FinalizerDaemon,5,system]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Object.wait(Object.java:422)
+                                                                      java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+                                                                      java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+                                                                      java.lang.Daemons$FinalizerDaemon.run(Daemons.java:173)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[Binder_1,5,main]
+                                                                  
+                                                                    Thread[FinalizerWatchdogDaemon,5,system]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:239)
+                                                                      java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:211)
+                                                                      java.lang.Thread.run(Thread.java:818)
+                                                                  
+                                                                    Thread[Binder_2,5,main]
+                                                                  
+                                                                    Thread[Instr: android.support.test.runner.AndroidJUnitRunner,5,main]
+                                                                      java.lang.Object.wait(Native Method)
+                                                                      java.lang.Thread.parkFor(Thread.java:1220)
+                                                                      sun.misc.Unsafe.park(Unsafe.java:299)
+                                                                      java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+                                                                      java.util.con
+03-08 23:30:55.329 18215-18215/com.example.rxtest E/MonitoringInstrumentation: Dying now...
+                                                                               
+                                                                               --------- beginning of crash
+03-08 23:30:55.331 18215-18215/com.example.rxtest E/AndroidRuntime: FATAL EXCEPTION: main
+                                                                    Process: com.example.rxtest, PID: 18215
+                                                                    java.lang.RuntimeException: Error receiving broadcast Intent { act=com.example.rxtest.ACTION flg=0x10 } in com.example.rxtest.Retry$1@304de118
+                                                                        at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:877)
+                                                                        at android.os.Handler.handleCallback(Handler.java:739)
+                                                                        at android.os.Handler.dispatchMessage(Handler.java:95)
+                                                                        at android.os.Looper.loop(Looper.java:211)
+                                                                        at android.app.ActivityThread.main(ActivityThread.java:5335)
+                                                                        at java.lang.reflect.Method.invoke(Native Method)
+                                                                        at java.lang.reflect.Method.invoke(Method.java:372)
+                                                                        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016)
+                                                                        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811)
+                                                                     Caused by: rx.exceptions.OnErrorFailedException: Error occurred when trying to propagate error to Observer.onError
+                                                                        at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:192)
+                                                                        at rx.observers.SafeSubscriber.onError(SafeSubscriber.java:120)
+                                                                        at rx.internal.operators.OnSubscribeRedo$4$1.onError(OnSubscribeRedo.java:331)
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.reportError(OperatorMerge.java:243)
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.checkTerminate(OperatorMerge.java:779)
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.emitLoop(OperatorMerge.java:540)
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.emitScalar(OperatorMerge.java:406)
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.tryEmit(OperatorMerge.java:330)
+                                                                        at rx.internal.operators.OperatorMerge$InnerSubscriber.onNext(OperatorMerge.java:807)
+                                                                        at com.example.rxtest.Retry$1.onReceive(Retry.java:45)
+                                                                        at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:867)
+                                                                        at android.os.Handler.handleCallback(Handler.java:739) 
+                                                                        at android.os.Handler.dispatchMessage(Handler.java:95) 
+                                                                        at android.os.Looper.loop(Looper.java:211) 
+                                                                        at android.app.ActivityThread.main(ActivityThread.java:5335) 
+                                                                        at java.lang.reflect.Method.invoke(Native Method) 
+                                                                        at java.lang.reflect.Method.invoke(Method.java:372) 
+                                                                        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016) 
+                                                                        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811) 
+                                                                     Caused by: rx.exceptions.CompositeException: 2 exceptions occurred. 
+                                                                        at rx.observers.SafeSubscriber._onError(SafeSubscriber.java:192) 
+                                                                        at rx.observers.SafeSubscriber.onError(SafeSubscriber.java:120) 
+                                                                        at rx.internal.operators.OnSubscribeRedo$4$1.onError(OnSubscribeRedo.java:331) 
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.reportError(OperatorMerge.java:243) 
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.checkTerminate(OperatorMerge.java:779) 
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.emitLoop(OperatorMerge.java:540) 
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.emitScalar(OperatorMerge.java:406) 
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.tryEmit(OperatorMerge.java:330) 
+                                                                        at rx.internal.operators.OperatorMerge$InnerSubscriber.onNext(OperatorMerge.java:807) 
+                                                                        at com.example.rxtest.Retry$1.onReceive(Retry.java:45) 
+                                                                        at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:867) 
+                                                                        at android.os.Handler.handleCallback(Handler.java:739) 
+                                                                        at android.os.Handler.dispatchMessage(Handler.java:95) 
+                                                                        at android.os.Looper.loop(Looper.java:211) 
+                                                                        at android.app.ActivityThread.main(ActivityThread.java:5335) 
+                                                                        at java.lang.reflect.Method.invoke(Native Method) 
+                                                                        at java.lang.reflect.Method.invoke(Method.java:372) 
+                                                                        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016) 
+                                                                        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811) 
+                                                                     Caused by: rx.exceptions.CompositeException$CompositeExceptionCausalChain: Chain of Causes for CompositeException In Order Received =>
+                                                                        at org.junit.runner.notification.Failure.getTrace(Failure.java:75)
+                                                                        at android.support.test.internal.runner.listener.InstrumentationResultPrinter.reportProcessCrash(InstrumentationResultPrinter.java:204)
+                                                                        at android.support.test.runner.AndroidJUnitRunner.onException(AndroidJUnitRunner.java:309)
+                                                                        at android.app.LoadedApk$ReceiverDispatcher$Args.run(LoadedApk.java:874)
+                                                                        at android.os.Handler.handleCallback(Handler.java:739) 
+                                                                        at android.os.Handler.dispatchMessage(Handler.java:95) 
+                                                                        at android.os.Looper.loop(Looper.java:211) 
+                                                                        at android.app.ActivityThread.main(ActivityThread.java:5335) 
+                                                                        at java.lang.reflect.Method.invoke(Native Method) 
+                                                                        at java.lang.reflect.Method.invoke(Method.java:372) 
+                                                                        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1016) 
+                                                                        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:811) 
+                                                                     Caused by: java.lang.NullPointerException
+                                                                        at java.util.concurrent.ConcurrentLinkedQueue.checkNotNull(ConcurrentLinkedQueue.java:773)
+                                                                        at java.util.concurrent.ConcurrentLinkedQueue.offer(ConcurrentLinkedQueue.java:295)
+                                                                        at rx.internal.operators.OperatorMerge$InnerSubscriber.onError(OperatorMerge.java:812)
+                                                                        at rx.Observable$ThrowObservable$1.call(Observable.java:10200)
+                                                                        at rx.Observable$ThrowObservable$1.call(Observable.java:10190)
+                                                                        at rx.Observable.unsafeSubscribe(Observable.java:8314)
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.onNext(OperatorMerge.java:235)
+                                                                        at rx.internal.operators.OperatorMerge$MergeSubscriber.onNext(OperatorMerge.java:145)
+                                                                        at rx.internal.operators.OperatorMap$1.onNext(OperatorMap.java:54)
+                                                                        at rx.internal.operators.OperatorMap$1.onNext(OperatorMap.java:54)
+                                                                        at rx.internal.operators.OnSubscribeRedo$3$1.onNext(OnSubscribeRedo.java:307)
+                                                                        at rx.internal.operators.OnSubscribeRedo$3$1.onNext(OnSubscribeRedo.java:289)
+                                                                        at rx.internal.operators.NotificationLite.accept(NotificationLite.java:150)
+                                                                        at rx.subjects.SubjectSubscriptionManager$SubjectObserver.emitNext(SubjectSubscriptionManager.java:253)
+                                                                        at rx.subjects.BehaviorSubject.onNext(BehaviorSubject.java:160)
+                                                                        at rx.internal.operators.OnSubscribeRedo$2$1.onError(OnSubscribeRedo.java:242)
+                                                                        at rx.internal.operators.OperatorSubscribeOn$1$1.onError(OperatorSubscribeOn.java:59)
+                                                                        at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.checkTerminated(OperatorObserveOn.java:254)
+                                                                        at rx.internal.operators.OperatorObserveOn$ObserveOnSubscriber.call(OperatorObserveOn.java:186)
+                                                                        at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+                                                                    	at java.util.concurrent.Executors$RunnableAdapt
