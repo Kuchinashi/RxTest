@@ -28,9 +28,9 @@ test:
 #    - sleep 30
 #    - adb shell input keyevent 82
 #    - ./gradlew clean assembleProductionDebug check connectedAndroidTest -PdisablePreDex
-    - ./gradlew clean assembleProductionDebug check
+    - ./gradlew clean assembleDebug check
 
 general:
   artifacts:
     # TODO Fix this because this section run before deployment section, release build apk is nothing.
-    - "app/build/outputs/apk/app-production-release.apk" # relative to the build directory
+    - "app/build/outputs/apk/app-release.apk" # relative to the build directory
